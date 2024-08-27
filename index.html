@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img class="imagen-logo" src="imagen/Logo.png" alt="logo de alura">
+        </div>
+    </header>
+    <main>
+        <section class="seccion-grande">
+
+            <textarea id="primerTexto" class="text-area" cols="30" rows="10"
+                placeholder="Ingrese el texto aqui"></textarea>
+            <div class="contenedorNoMayusculas">
+                <img class="logoNoMayusculas" src="imagen/image.png" alt="logo solo letras minúsculas y sin acentos">
+                <p class="informacion"> Solo letras minúsculas y sin acentos</p>
+            </div>
+            <div class="botones">
+                <button onclick="encriptar()" class="btn-encriptar">Encriptar</button>
+                <button onclick="desencriptar()" class="btn-desencriptar">Desencriptar</button>
+            </div>
+        </section>
+        <section class="seccion-pequeña">
+            <div class="contenedor-mensaje">
+                <div id="superpuesto" class="superpuesto">
+                    <img id="imagenNoTexto" class="imagenSinTexto" src="/imagen/Muñeco.png"
+                        alt="imagen cuando no hay texto">
+                    <h1 id="textoNoMsj" class="texto-no-mensaje">Ningún mensaje fue </br> encontrado</h1>
+                    <p id="textoIngresa" class="texto-ingresa">Ingresa el texto que desees encriptar o </br> desencriptar.
+                    </p>
+                </div>
+                <textarea id="segundoTexto" class="mensaje" cols="20" rows="10 ">
+                        </textarea>
+                <button id="btnCopiar" onclick="copiarTexto()" class="btn-copiar">Copiar</button>
+            </div>
+        </section>
+    </main>
+    <script src="app.js"></script>
+    <footer class="footer">
+        <p>Desarrollado por María Flores</p>
+    </footer>
+</body> 
+</html>
