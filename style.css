@@ -55,6 +55,7 @@ main {
 .contenedorNoMayusculas {
     display: flex;
     flex-direction: row;
+    margin-left:35px;
 }
 
 .logoNoMayusculas {
@@ -192,5 +193,5 @@ p {
     width: 100%;
     position: fixed; 
     bottom: 0;
-    left: -450px;
+    left: -562px;
 }
