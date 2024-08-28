@@ -1,4 +1,5 @@
-<h1>Encriptador de Texto<h/1>
+<h1>Encriptador de Texto</h1>
+
 Este proyecto es un desafío inspirado por Alura Latam, para el curso Principiante en Programación. La aplicación se desarrolló
 utilizando HTML, CSS y JavaScrip.
 
